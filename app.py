@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import pandas as pd
-import plotly.express as px
+# import plotly.express as px
 import plotly.graph_objects as go
 from trainer import PerformanceTrainer
 from data_processor import AttendanceDataProcessor
@@ -468,4 +468,5 @@ st.markdown("""
     <p>🤖 Powered by Deep Q-Learning | Built with Streamlit</p>
     <p>Employee Performance Evaluation System © 2024</p>
 </div>
+
 """, unsafe_allow_html=True)
